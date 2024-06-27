@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightcyan;
+}
+.search{
+    background-color: white;
+    display: flex;
+    gap: 2.5vw;
+    padding: 2vh;
+}
+.inp{
+    display: inline;
+}
+.fl{
+    display: none;
+}
+#flogo1{
+    margin-left: 4vw;
+    width: 110px;
+    
+}
+#flogo{
+    margin-left: 4vw;
+    width: 110px;
+}
+#input{
+    margin-left: 2vw;
+    width: 50vw;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(188, 219, 246);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.pro1{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 150px;
+    margin-top: 13px;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    gap: 5vw;
+}
+#grocery{
+    height: 17vh;
+}
+.grocery{
+    text-align: center;
+    margin-left: 5vw;
+}
+div{
+    text-align: center;
+}
+#mobile{
+    width: 135px;
+    height: 17vh;
+}
+#laptop{
+    width: 200px;
+    height: 17vh;
+}
+#fashion{
+    width: 200px;
+    height: 17vh;
+}
+#travel{
+    width: 160px;
+    height: 17vh;
+}
+#toys{
+    height: 17vh;
+}
+.fur{
+    margin-right: 5vw;
+    text-align: center;
+}
+#fur{
+    height: 17vh;
+}
+.pro2{
+    display: flex;
+    margin-top: 13px;
+    padding: 30px;
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 3vw;
+}
+#moad{
+    height: 41vh;
+    margin-right: 20px;
+}
+#course{
+    height: 41vh;
+    margin-left: 20px;
+}
+#bann{
+    height: 41vh;
+}
+.cards{
+    display: flex;
+    margin-top: 13px;
+    padding: 20px;
+    background-color: white;
+    gap: 5vw;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.p1{
+    height: 36vh;
+    border-radius: 17px;
+    border: 2px solid gray;
+    margin-left: 25px;
+}
+.p2{
+    border-radius: 17px;
+    border: 2px solid gray;    
+}
+.p3{
+    border-radius: 17px;
+    border: 2px solid gray;
+}
+.p4{
+    
+    border-radius: 17px;
+    border: 2px solid gray;
+}
+.p5{
+    border-radius: 17px;
+    border: 2px solid gray; 
+    margin-right: 25px;
+}
+#watch{
+    margin: 2px;
+    height: 36vh;
+    border-radius: 17px;
+    margin-bottom: 5px; 
+}
+#gamepass{
+    margin: 2px;
+    height: 36vh;
+    border-radius: 17px;
+    margin-bottom: 5px; 
+}
+#shirt{
+    margin: 2px;
+    height: 36vh;
+    border-radius: 17px;
+    margin-bottom: 5px;
+}
+#xbox{
+    margin: 2px;
+    height: 36vh;
+    border-radius: 17px;
+    margin-bottom: 5px;  
+}
+#earbuds{
+    height: 36vh;
+    border-radius: 17px;
+    margin-bottom: 5px;
+}
+#earb{
+    padding: 5px 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: rgb(147, 191, 253);
+    color: black;
+}
+.theory{
+    display: flex;
+    margin-top: 13px;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(186, 182, 182);
+}
+.ending{
+    background-color: black;
+}
+.social{
+    display:flex;
+    gap: 1.5vw;
+}
+#insta{
+    height: 60px;
+}
+#fb{
+    padding: 8px;
+    height: 40px;
+}
+#x{
+    padding: 8px;
+    height: 40px;
+}
+p{
+    color: white;
+}
+#cont{
+    color: white;
+    margin-left: 5px;
+    padding-top: 24px;
+    font-weight: bold;
+}
+#num{
+    color: white;
+    padding-top: 24px;
+}
+@media only screen and (max-width: 616px) {
+    .login{
+        display: none;
+    }
+    .cart{
+        display:none;
+    }
+    .seller{
+        display: none;
+    }
+    #flogo{
+        display: none;
+    }
+    #flogo1{
+        display: grid;
+    }
+    #input{
+        width: 90vw;
+    }
+    .fl{
+        padding: 2vh;
+        background-color: white;
+        display: flex;
+        gap: 60vw;
+    }
+    #about{
+        display: none;
+    }
+}
